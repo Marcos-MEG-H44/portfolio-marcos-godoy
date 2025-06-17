@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Marcos Godoy</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+    <div id="bienvenida" class="bienvenida fade-in">
+        <p>¡Bienvenido a mi portfolio! Soy Marcos Godoy</p>
+    </div>
+
+    <header>
+        <div class="foto-header">
+            <img src="mi-foto.jpg" alt="Foto de Marcos Godoy">
+        </div>
+        <h1>Hola, soy Marcos Godoy</h1>
+        <p>Estudiante de Técnico en Programación</p>
+        <button onclick="toggleDarkMode()">🌙 Modo Oscuro</button>
+    </header>
+
+    <main>
+        <section class="sobre-mi">
+            <h2>Sobre mí</h2>
+            <p>Tengo experiencia en C++, C#.</p>
+            <p>Actualmente estudio HTML, CSS y JavaScript. Me encanta la tecnología y quiero desarrollarme como programador.</p>
+            <p>Materias aprobadas: Arquitectura y Sistemas Operativos, Matemática, Organización Empresarial, Programación 1.</p>
+        </section>
+
+        <section class="habilidades">
+            <h2>Habilidades</h2>
+            <div class="barra"><label>HTML</label><div class="progreso"><div style="width:85%">85%</div></div></div>
+            <div class="barra"><label>CSS</label><div class="progreso"><div style="width:75%">75%</div></div></div>
+            <div class="barra"><label>JavaScript</label><div class="progreso"><div style="width:60%">60%</div></div></div>
+            <div class="barra"><label>C#</label><div class="progreso"><div style="width:70%">70%</div></div></div>
+            <div class="barra"><label>C++</label><div class="progreso"><div style="width:90%">90%</div></div></div>
+            <div class="barra"><label>SQL Server</label><div class="progreso"><div style="width:60%">60%</div></div></div>
+        </section>
+
+   <section class="proyectos">
+    <h2>Proyectos</h2>
+    <ul>
+        <li>📘 Página de práctica con HTML</li>
+        <li>📗 Estilos con CSS</li>
+        <li>📙 Primer uso de JavaScript</li>
+        <li>
+            <a href="https://github.com/Marcos-MEG-H44/TrabajoProgramacion2" target="_blank" style="text-decoration:none; color:#4c8eaf;">
+                <i class="fab fa-github"></i> TrabajoProgramacion2
+            </a>
+        </li>
+    </ul>
+</section>
+
+
+        <section class="contacto">
+            <h2>Contacto Directo</h2>
+            <form action="mailto:godoy.marcos.cp@gmail.com" method="POST" enctype="text/plain">
+                <div class="form-group">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                </div>
+                <div class="form-group">
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+                </div>
+                <button type="submit">📤 Enviar</button>
+            </form>
+        </section>
+
+        <section class="redes-sociales">
+            <h2>Mis Redes Sociales</h2>
+            <div class="redes">
+                <a href="https://www.facebook.com/marcos.good.364020" target="_blank" class="fab fa-facebook"></a>
+                <a href="https://www.instagram.com/mg_lamateradelgringo?igsh=d3VnMzkwdmVIZnE5" target="_blank" class="fab fa-instagram"></a>
+                <a href="https://github.com/Marcos-MEG-H44" target="_blank" class="fab fa-github"></a>
+                <a href="mailto:godoy.marcos.cp@gmail.com
